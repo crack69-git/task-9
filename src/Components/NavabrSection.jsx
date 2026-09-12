@@ -115,7 +115,7 @@ const NavabrSection = () => {
                 About
               </Link>
               {Object.keys(drawerRoutes).map((drawer) => (
-                  <button
+                <button
                   key={drawer}
                   type="button"
                   aria-expanded={openDrawer === drawer}
@@ -128,18 +128,18 @@ const NavabrSection = () => {
                   />
                 </button>
               ))}
-                <Link
-                  href="#"
-                  className="text-sm font-semibold hover:text-[#d77b2b]"
-                >
-                  About
-                </Link>
-                <Link
-                  href="#"
-                  className="text-sm font-semibold hover:text-[#d77b2b]"
-                >
-                  Campus Life
-                </Link>
+              <Link
+                href="#"
+                className="text-sm font-semibold hover:text-[#d77b2b]"
+              >
+                About
+              </Link>
+              <Link
+                href="#"
+                className="text-sm font-semibold hover:text-[#d77b2b]"
+              >
+                Campus Life
+              </Link>
             </nav>
             <div className="flex items-center gap-2 sm:gap-3">
               <Link
