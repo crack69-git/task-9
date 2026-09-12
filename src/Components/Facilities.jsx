@@ -8,7 +8,7 @@ const AcademicFacilities = () => {
   const cardsData = [
     {
       badge: "Digital E-Library",
-      image: "/images/library.jpg", // Replace with your image path
+      image: "/library.png", // Replace with your image path
       title: "Ratnagarva Begum Ashrafunnesa Library",
       description:
         "Houses over 40,000 textbooks, access to major IEEE, JSTOR, and Springer e-journal subscriptions, air-conditioned study lounges, and private thesis carrels.",
@@ -17,7 +17,7 @@ const AcademicFacilities = () => {
     },
     {
       badge: "Science & Tech",
-      image: "/images/labs.jpg", // Replace with your image path
+      image: "/lab.png", // Replace with your image path
       title: "Specialized Engineering & Computing Labs",
       description:
         "Equipped with high-performance workstations for AI, Robotics, Civil Engineering structures testing, Electrical machines, and Textile apparel testing apparatus.",
@@ -26,7 +26,7 @@ const AcademicFacilities = () => {
     },
     {
       badge: "Clubs & Forums",
-      image: "/images/forums.jpg", // Replace with your image path
+      image: "/activity.png", // Replace with your image path
       title: "Student Forums & Co-Curriculars",
       description:
         "Active student bodies including Cultural Forum (PCCF), Debate Forum, Sports Forum, IT Forum, Media Club, and the Center For Training and Development.",

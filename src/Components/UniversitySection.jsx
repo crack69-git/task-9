@@ -25,7 +25,7 @@ export default function Home() {
             <div className="relative z-10 flex items-center gap-3">
               <div className="relative h-[68px] w-[68px] shrink-0 overflow-hidden rounded-full border-[3px] border-white bg-slate-200 shadow-sm">
                 <Image
-                  src="/images/vc.jpg"
+                  src="/vc.png"
                   alt="Vice Chancellor"
                   fill
                   className="object-cover"

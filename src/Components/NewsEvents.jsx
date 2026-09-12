@@ -6,7 +6,7 @@ import { Button } from "@heroui/react";
 
 const newsItems = [
   {
-    image: "/images/news/drone-workshop.jpg",
+    image: "/drone.png",
     category: "WORKSHOP",
     categoryColor: "bg-[#a51d20]",
     date: "19 May 2026",
@@ -18,7 +18,7 @@ const newsItems = [
     action: "Read",
   },
   {
-    image: "/images/news/bengali-new-year.jpg",
+    image: "/new-year.png",
     category: "CULTURAL",
     categoryColor: "bg-[#a55c00]",
     date: "13 Apr 2026",
@@ -30,7 +30,7 @@ const newsItems = [
     action: "Read",
   },
   {
-    image: "/images/news/chess.jpg",
+    image: "/chess.png",
     category: "SPORTS",
     categoryColor: "bg-[#173c80]",
     date: "11 Apr 2026",
@@ -42,7 +42,7 @@ const newsItems = [
     action: "Details",
   },
   {
-    image: "/images/news/rapid-chess.jpg",
+    image: "/rapid-chess.png",
     category: "INAUGURATION",
     categoryColor: "bg-[#002b69]",
     date: "11 Apr 2026",
